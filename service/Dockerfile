@@ -5,7 +5,7 @@ run echo "travis_fold:start:Dapt\033[33;1mservice Dockerfile apt\033[0m" &&     
 copy speedrun-007 /
 run chmod 755 /speedrun-007
 
-run touch /flag && chmod 644 /flag && echo "TODO: ADD FLAG" > /flag
+run touch /flag && chmod 644 /flag && echo "OOO{You think you could leave without saying goodbye? %rip Paul Walker...}" > /flag
 copy service.conf /service.conf
 copy wrapper /wrapper
 
